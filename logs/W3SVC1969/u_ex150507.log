@@ -1,0 +1,185 @@
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 00:12:00
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 00:12:00 W3SVC1969 pine 23.91.123.48 GET / - 80 - 66.249.84.132 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0)+Gecko/20110814+Firefox/6.0+Google+favicon - - dcbmit.com 200 0 0 1758 256 499
+2015-05-07 00:12:00 W3SVC1969 pine 23.91.123.48 GET /favicon.ico - 80 - 66.249.84.252 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0)+Gecko/20110814+Firefox/6.0+Google+favicon - - dcbmit.com 404 0 2 1382 211 62
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 01:14:37
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 01:14:37 W3SVC1969 pine 23.91.123.48 GET / - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - - dcbmit.com 200 0 0 1758 379 624
+2015-05-07 01:14:37 W3SVC1969 pine 23.91.123.48 GET /css/style.css - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - http://dcbmit.com/ dcbmit.com 304 0 0 141 396 609
+2015-05-07 01:14:37 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - http://dcbmit.com/ dcbmit.com 404 0 2 1382 349 218
+2015-05-07 01:14:42 W3SVC1969 pine 23.91.123.48 GET /aboutus.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - http://dcbmit.com/ dcbmit.com 200 0 0 1801 334 218
+2015-05-07 01:14:48 W3SVC1969 pine 23.91.123.48 GET /members.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - http://dcbmit.com/aboutus.html dcbmit.com 200 0 0 1779 432 218
+2015-05-07 01:14:51 W3SVC1969 pine 23.91.123.48 GET /learning.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - http://dcbmit.com/members.html dcbmit.com 200 0 0 1121 433 203
+2015-05-07 01:14:51 W3SVC1969 pine 23.91.123.48 GET /browserconfig.xml - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+Trident/7.0;+rv:11.0)+like+Gecko - - dcbmit.com 404 0 2 1382 232 203
+2015-05-07 01:14:58 W3SVC1969 pine 23.91.123.48 GET /ourmission.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - http://dcbmit.com/learning.html dcbmit.com 200 0 0 1795 350 218
+2015-05-07 01:15:06 W3SVC1969 pine 23.91.123.48 GET /schedule.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - http://dcbmit.com/ourmission.html dcbmit.com 200 0 0 1537 350 3593
+2015-05-07 01:15:16 W3SVC1969 pine 23.91.123.48 GET /quicklinks.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - http://dcbmit.com/schedule.html dcbmit.com 200 0 0 1122 350 203
+2015-05-07 01:15:18 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - http://dcbmit.com/quicklinks.html dcbmit.com 200 0 0 1028 351 218
+2015-05-07 01:15:25 W3SVC1969 pine 23.91.123.48 GET /index.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - http://dcbmit.com/contactus.html dcbmit.com 200 0 0 1758 432 218
+2015-05-07 01:15:25 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - http://dcbmit.com/index.html dcbmit.com 404 0 2 1382 359 218
+2015-05-07 01:15:39 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - http://dcbmit.com/index.html dcbmit.com 404 0 2 1382 359 609
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 03:20:23
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 03:20:23 W3SVC1969 pine 23.91.123.48 GET / - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(X11;+Linux+x86_64;+rv:28.0)+Gecko/20100101++Firefox/28.0 - - dcbmit.com 200 0 0 1758 188 594
+2015-05-07 03:20:23 W3SVC1969 pine 23.91.123.48 GET / - 80 - 192.99.40.137 HTTP/1.0 Mozilla/5.0+(X11;+Linux+x86_64;+rv:28.0)+Gecko/20100101+Firefox/28.0 - - dcbmit.com 200 0 0 2967 195 46
+2015-05-07 03:23:31 W3SVC1969 pine 23.91.123.48 GET / - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(compatible;+DomainSigmaCrawler/0.1;++http://domainsigma.com/robot) - http://domainsigma.com/whois/dcbmit.com dcbmit.com 200 0 0 1758 248 46
+2015-05-07 03:23:31 W3SVC1969 pine 23.91.123.48 GET /css/style.css - 80 - 192.99.40.137 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+NT) - - dcbmit.com 200 0 0 1737 153 46
+2015-05-07 03:23:32 W3SVC1969 pine 23.91.123.48 GET /domainsigma_removal_7632886e55f3960adcf2fa0970b684bf2686e48f.html - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(compatible;+OptimizationCrawler/0.2;++http://www.domainoptima.com/robot) - - dcbmit.com 404 0 2 1382 269 46
+2015-05-07 03:23:32 W3SVC1969 pine 23.91.123.48 GET / - 80 - 192.99.40.137 HTTP/1.0 Mozilla/5.0+(compatible;+OptimizationCrawler/0.2;++http://www.domainoptima.com/robot) - - dcbmit.com 200 0 0 2967 212 46
+2015-05-07 03:23:32 W3SVC1969 pine 23.91.123.48 GET /robots.txt - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(compatible;+OptimizationCrawler/0.2;++http://www.domainoptima.com/robot) - - dcbmit.com 404 0 2 1382 214 46
+2015-05-07 03:23:32 W3SVC1969 pine 23.91.123.48 GET /favicon.ico - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(compatible;+OptimizationCrawler/0.2;++http://www.domainoptima.com/robot) - - dcbmit.com 404 0 2 1382 215 62
+2015-05-07 03:23:37 W3SVC1969 pine 23.91.123.48 GET / - 80 - 66.220.146.20 HTTP/1.1 facebookexternalhit/1.1+(+http://www.facebook.com/externalhit_uatext.php) - - dcbmit.com 206 0 0 3009 210 46
+2015-05-07 03:23:43 W3SVC1969 pine 23.91.123.48 GET / - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(compatible;+DomainSigmaCrawler/0.1;++http://domainsigma.com/robot) - http://domainsigma.com/whois/dcbmit.com dcbmit.com 200 0 0 1511 248 46
+2015-05-07 03:23:43 W3SVC1969 pine 23.91.123.48 GET /css/style.css - 80 - 192.99.40.137 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+NT) - - dcbmit.com 200 0 0 1737 153 46
+2015-05-07 03:23:43 W3SVC1969 pine 23.91.123.48 GET /robots.txt - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(compatible;+OptimizationCrawler/0.2;++http://www.domainoptima.com/robot) - - dcbmit.com 404 0 2 1382 214 46
+2015-05-07 03:23:44 W3SVC1969 pine 23.91.123.48 GET / - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(compatible;+DomainSigmaCrawler/0.1;++http://domainsigma.com/robot) - http://domainsigma.com/whois/dcbmit.com dcbmit.com 200 0 0 1511 248 46
+2015-05-07 03:23:44 W3SVC1969 pine 23.91.123.48 GET /css/style.css - 80 - 192.99.40.137 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+NT) - - dcbmit.com 200 0 0 1448 153 46
+2015-05-07 03:23:44 W3SVC1969 pine 23.91.123.48 GET / - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(compatible;+OptimizationCrawler/0.2;++http://www.domainoptima.com/robot) - - dcbmit.com 200 0 0 1511 204 31
+2015-05-07 03:23:48 W3SVC1969 pine 23.91.123.48 GET /aboutus.html - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(compatible;+OptimizationCrawler/0.2;++http://www.domainoptima.com/robot) - - dcbmit.com 200 0 0 1801 216 46
+2015-05-07 03:23:48 W3SVC1969 pine 23.91.123.48 GET /aboutus.html - 80 - 66.220.146.27 HTTP/1.1 facebookexternalhit/1.1+(+http://www.facebook.com/externalhit_uatext.php) - - dcbmit.com 206 0 0 2926 222 62
+2015-05-07 03:23:53 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(compatible;+OptimizationCrawler/0.2;++http://www.domainoptima.com/robot) - - dcbmit.com 200 0 0 1028 218 46
+2015-05-07 03:23:53 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 66.220.146.21 HTTP/1.1 facebookexternalhit/1.1+(+http://www.facebook.com/externalhit_uatext.php) - - dcbmit.com 206 0 0 1604 224 46
+2015-05-07 03:23:57 W3SVC1969 pine 23.91.123.48 GET /index.html - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(compatible;+OptimizationCrawler/0.2;++http://www.domainoptima.com/robot) - - dcbmit.com 200 0 0 1511 214 31
+2015-05-07 03:23:57 W3SVC1969 pine 23.91.123.48 GET /index.html - 80 - 66.220.146.21 HTTP/1.1 facebookexternalhit/1.1+(+http://www.facebook.com/externalhit_uatext.php) - - dcbmit.com 206 0 0 1577 220 46
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 03:44:11
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 03:44:10 W3SVC1969 pine 23.91.123.48 GET /robots.txt - 80 - 66.249.67.247 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - dcbmit.com 404 0 2 1382 251 31
+2015-05-07 03:44:10 W3SVC1969 pine 23.91.123.48 GET /left1.html - 80 - 66.249.67.247 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - dcbmit.com 304 0 0 142 344 78
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 04:42:47
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 04:42:46 W3SVC1969 pine 23.91.123.48 HEAD / - 80 - 192.99.40.137 HTTP/1.1 Mozilla/5.0+(compatible;+DomainSigmaCrawler/0.1;++http://domainsigma.com/robot) - http://domainsigma.com/whois/dcbmit.com dcbmit.com 200 0 0 272 249 437
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 09:28:14
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 09:28:13 W3SVC1969 pine 23.91.123.48 GET /robots.txt - 80 - 66.249.67.207 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 404 0 2 1382 255 249
+2015-05-07 09:28:14 W3SVC1969 pine 23.91.123.48 GET / - 80 - 66.249.67.195 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 1758 288 421
+2015-05-07 09:29:11 W3SVC1969 pine 23.91.123.48 GET /index.html - 80 - 66.249.67.207 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 1758 298 31
+2015-05-07 09:29:20 W3SVC1969 pine 23.91.123.48 GET /css/style.css - 80 - 66.249.67.219 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.dcbmit.com/index.html www.dcbmit.com 200 0 0 1737 303 31
+2015-05-07 09:29:24 W3SVC1969 pine 23.91.123.48 GET /left1.html - 80 - 66.249.67.219 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 2415 298 31
+2015-05-07 09:31:31 W3SVC1969 pine 23.91.123.48 GET /left3.html - 80 - 66.249.67.219 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 2418 298 31
+2015-05-07 09:31:32 W3SVC1969 pine 23.91.123.48 GET /left2.html - 80 - 66.249.67.195 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 2416 298 46
+2015-05-07 09:33:21 W3SVC1969 pine 23.91.123.48 GET /aboutus.html - 80 - 66.249.67.195 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 1801 300 62
+2015-05-07 09:34:52 W3SVC1969 pine 23.91.123.48 GET /members.html - 80 - 66.249.67.219 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 1779 300 46
+2015-05-07 09:35:35 W3SVC1969 pine 23.91.123.48 GET /learning.html - 80 - 66.249.67.219 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 1121 301 46
+2015-05-07 09:35:42 W3SVC1969 pine 23.91.123.48 GET /left2.html - 80 - 66.249.67.247 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - dcbmit.com 200 0 0 2416 294 46
+2015-05-07 09:38:06 W3SVC1969 pine 23.91.123.48 GET /schedule.html - 80 - 66.249.67.219 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 1537 301 46
+2015-05-07 09:39:28 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 66.249.67.195 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 1028 302 46
+2015-05-07 09:40:47 W3SVC1969 pine 23.91.123.48 GET /ourmission.html - 80 - 66.249.67.219 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 1795 303 31
+2015-05-07 09:40:59 W3SVC1969 pine 23.91.123.48 GET /quicklinks.html - 80 - 66.249.67.207 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 1122 303 46
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 11:04:45
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 11:04:44 W3SVC1969 pine 23.91.123.48 GET /members.html - 80 - 66.249.67.5 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - dcbmit.com 200 0 0 1779 296 250
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 11:24:20
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 11:24:19 W3SVC1969 pine 23.91.123.48 GET /left3.html - 80 - 66.249.67.5 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+6_0+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+Version/6.0+Mobile/10A5376e+Safari/8536.25+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - dcbmit.com 200 0 0 2418 418 31
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 12:34:02
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 12:34:01 W3SVC1969 pine 23.91.123.48 GET /aboutus.html - 80 - 66.249.67.5 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - dcbmit.com 200 0 0 1801 296 265
+2015-05-07 12:49:18 W3SVC1969 pine 23.91.123.48 GET /css/style.css - 80 - 66.249.67.195 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 1737 241 31
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 13:11:20
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 13:11:20 W3SVC1969 pine 23.91.123.48 GET / - 80 - 66.249.67.235 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - dcbmit.com 200 0 0 1758 284 500
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 13:52:39
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 13:52:38 W3SVC1969 pine 23.91.123.48 GET /m/ - 80 - 66.249.67.195 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 404 0 2 1382 290 546
+2015-05-07 13:52:39 W3SVC1969 pine 23.91.123.48 GET /mobile/ - 80 - 66.249.67.219 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 404 0 2 1382 295 31
+2015-05-07 14:03:03 W3SVC1969 pine 23.91.123.48 GET /schedule.html - 80 - 66.249.67.247 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - dcbmit.com 200 0 0 1537 297 31
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 14:32:53
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 14:32:53 W3SVC1969 pine 23.91.123.48 GET / - 80 - 192.184.57.170 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 200 0 0 1758 348 1188
+2015-05-07 14:32:55 W3SVC1969 pine 23.91.123.48 GET /css/style.css - 80 - 192.184.57.170 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/ dcbmit.com 304 0 0 141 419 30
+2015-05-07 14:32:55 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 192.184.57.170 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 30
+2015-05-07 14:33:02 W3SVC1969 pine 23.91.123.48 GET /members.html - 80 - 192.184.57.170 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/ dcbmit.com 200 0 0 1779 475 31
+2015-05-07 14:33:04 W3SVC1969 pine 23.91.123.48 GET /aboutus.html - 80 - 192.184.57.170 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/members.html dcbmit.com 304 0 0 142 489 31
+2015-05-07 14:33:06 W3SVC1969 pine 23.91.123.48 GET /learning.html - 80 - 192.184.57.170 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/aboutus.html dcbmit.com 200 0 0 1121 488 31
+2015-05-07 14:33:08 W3SVC1969 pine 23.91.123.48 GET /ourmission.html - 80 - 192.184.57.170 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/learning.html dcbmit.com 304 0 0 142 491 31
+2015-05-07 14:33:10 W3SVC1969 pine 23.91.123.48 GET /schedule.html - 80 - 192.184.57.170 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/ourmission.html dcbmit.com 304 0 0 142 491 31
+2015-05-07 14:33:13 W3SVC1969 pine 23.91.123.48 GET /quicklinks.html - 80 - 192.184.57.170 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/schedule.html dcbmit.com 304 0 0 142 491 31
+2015-05-07 14:33:14 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 192.184.57.170 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/quicklinks.html dcbmit.com 304 0 0 141 491 31
+2015-05-07 14:41:10 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 206.225.132.111 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 200 0 0 222 473 46
+2015-05-07 14:41:17 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 206.225.132.111 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 304 0 0 142 474 31
+2015-05-07 14:41:30 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 206.225.132.111 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 31
+2015-05-07 14:41:32 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 206.225.132.111 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/ dcbmit.com 304 0 0 142 477 31
+2015-05-07 14:42:56 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 192.184.57.170 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 200 0 0 222 474 46
+2015-05-07 14:42:58 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 192.184.57.170 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 304 0 0 142 474 31
+2015-05-07 14:44:38 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 404 0 2 1382 474 31
+2015-05-07 14:44:45 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 31
+2015-05-07 14:44:54 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/quicklinks.html dcbmit.com 200 0 0 1164 406 46
+2015-05-07 14:45:37 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 200 0 0 1175 474 31
+2015-05-07 14:45:38 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 304 0 0 142 476 31
+2015-05-07 14:46:01 W3SVC1969 pine 23.91.123.48 GET /index.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/contactus.html dcbmit.com 304 0 0 142 487 31
+2015-05-07 14:46:01 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 46
+2015-05-07 14:46:31 W3SVC1969 pine 23.91.123.48 GET /aboutme.html - 80 - 66.249.67.5 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - dcbmit.com 200 0 0 1058 296 46
+2015-05-07 14:46:55 W3SVC1969 pine 23.91.123.48 GET /index.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 200 0 0 1789 470 46
+2015-05-07 14:46:55 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 47
+2015-05-07 14:46:58 W3SVC1969 pine 23.91.123.48 GET /index.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 200 0 0 1536 472 46
+2015-05-07 14:46:58 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 46
+2015-05-07 14:47:52 W3SVC1969 pine 23.91.123.48 GET /index.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 200 0 0 1799 470 31
+2015-05-07 14:47:53 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 46
+2015-05-07 14:49:03 W3SVC1969 pine 23.91.123.48 GET /index.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 200 0 0 1797 472 31
+2015-05-07 14:49:03 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 46
+2015-05-07 14:49:36 W3SVC1969 pine 23.91.123.48 GET / - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+8_2+like+Mac+OS+X)+AppleWebKit/600.1.4+(KHTML,+like+Gecko)+Version/8.0+Mobile/12D508+Safari/600.1.4 - - dcbmit.com 200 0 0 1797 336 296
+2015-05-07 14:49:40 W3SVC1969 pine 23.91.123.48 GET /css/style.css - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+8_2+like+Mac+OS+X)+AppleWebKit/600.1.4+(KHTML,+like+Gecko)+Version/8.0+Mobile/12D508+Safari/600.1.4 - http://dcbmit.com/ dcbmit.com 200 0 0 1737 333 234
+2015-05-07 14:49:42 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+8_2+like+Mac+OS+X)+AppleWebKit/600.1.4+(KHTML,+like+Gecko)+Version/8.0+Mobile/12D508+Safari/600.1.4 - http://dcbmit.com/ dcbmit.com 404 0 2 1382 319 218
+2015-05-07 14:50:03 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+8_2+like+Mac+OS+X)+AppleWebKit/600.1.4+(KHTML,+like+Gecko)+Version/8.0+Mobile/12D508+Safari/600.1.4 - http://dcbmit.com/ dcbmit.com 200 0 0 1173 379 328
+2015-05-07 14:51:22 W3SVC1969 pine 23.91.123.48 GET /aboutus.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+8_2+like+Mac+OS+X)+AppleWebKit/600.1.4+(KHTML,+like+Gecko)+Version/8.0+Mobile/12D508+Safari/600.1.4 - http://dcbmit.com/contactus.html dcbmit.com 200 0 0 1801 391 4578
+2015-05-07 14:51:44 W3SVC1969 pine 23.91.123.48 GET /aboutus.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+8_2+like+Mac+OS+X)+AppleWebKit/600.1.4+(KHTML,+like+Gecko)+Version/8.0+Mobile/12D508+Safari/600.1.4 - http://dcbmit.com/contactus.html dcbmit.com 200 0 1236 0 391 10953
+2015-05-07 14:52:30 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+8_2+like+Mac+OS+X)+AppleWebKit/600.1.4+(KHTML,+like+Gecko)+Version/8.0+Mobile/12D508+Safari/600.1.4 - http://dcbmit.com/ dcbmit.com 304 0 0 142 465 234
+2015-05-07 14:52:51 W3SVC1969 pine 23.91.123.48 GET /index.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/aboutus.html dcbmit.com 304 0 0 142 485 31
+2015-05-07 14:52:51 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 31
+2015-05-07 14:52:55 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/quicklinks.html dcbmit.com 304 0 0 142 494 31
+2015-05-07 14:52:56 W3SVC1969 pine 23.91.123.48 GET /quicklinks.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+8_2+like+Mac+OS+X)+AppleWebKit/600.1.4+(KHTML,+like+Gecko)+Version/8.0+Mobile/12D508+Safari/600.1.4 - http://dcbmit.com/contactus.html dcbmit.com 200 0 0 1122 394 234
+2015-05-07 14:53:08 W3SVC1969 pine 23.91.123.48 GET /schedule.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+8_2+like+Mac+OS+X)+AppleWebKit/600.1.4+(KHTML,+like+Gecko)+Version/8.0+Mobile/12D508+Safari/600.1.4 - http://dcbmit.com/quicklinks.html dcbmit.com 200 0 0 1537 393 249
+2015-05-07 14:53:40 W3SVC1969 pine 23.91.123.48 GET /ourmission.html - 80 - 222.130.121.97 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+8_2+like+Mac+OS+X)+AppleWebKit/600.1.4+(KHTML,+like+Gecko)+Version/8.0+Mobile/12D508+Safari/600.1.4 - http://dcbmit.com/schedule.html dcbmit.com 200 0 0 1795 393 296
+2015-05-07 14:55:55 W3SVC1969 pine 23.91.123.48 GET /index.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/aboutus.html dcbmit.com 304 0 0 142 485 31
+2015-05-07 14:55:55 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 31
+2015-05-07 14:56:01 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/quicklinks.html dcbmit.com 304 0 0 142 494 31
+2015-05-07 14:56:04 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 31
+2015-05-07 15:03:17 W3SVC1969 pine 23.91.123.48 GET /index.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - dcbmit.com 200 0 0 1817 470 46
+2015-05-07 15:03:17 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 31
+2015-05-07 15:03:51 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/quicklinks.html dcbmit.com 304 0 0 142 494 46
+2015-05-07 15:04:19 W3SVC1969 pine 23.91.123.48 GET /css/img/bg.jpg - 80 - 23.89.137.202 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://dcbmit.com/css/style.css dcbmit.com 404 0 2 1382 350 31
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 15:55:18
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 15:55:17 W3SVC1969 pine 23.91.123.48 GET /robots.txt - 80 - 66.249.67.247 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - dcbmit.com 404 0 2 1382 251 187
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 16:28:12
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 16:28:11 W3SVC1969 pine 23.91.123.48 GET /quicklinks.html - 80 - 66.249.67.5 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+6_0+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+Version/6.0+Mobile/10A5376e+Safari/8536.25+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - dcbmit.com 200 0 0 1122 423 171
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 20:20:38
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 20:20:37 W3SVC1969 pine 23.91.123.48 GET /m/ - 80 - 66.249.67.247 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+6_0+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+Version/6.0+Mobile/10A5376e+Safari/8536.25+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - dcbmit.com 404 0 2 1382 410 609
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2015-05-07 23:04:37
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-05-07 23:04:37 W3SVC1969 pine 23.91.123.48 GET /robots.txt - 80 - 66.249.67.195 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 404 0 2 1382 255 265
+2015-05-07 23:04:37 W3SVC1969 pine 23.91.123.48 GET /contactus.html - 80 - 66.249.67.219 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+6_0+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+Version/6.0+Mobile/10A5376e+Safari/8536.25+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.dcbmit.com 200 0 0 1173 426 46

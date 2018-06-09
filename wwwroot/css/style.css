@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0; border:0; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+
+.logo{background:#008ae5; position:relative; height:auto;}
+.logo img{margin-left:2%; margin-top:15px; margin-bottom:15px;}
+.daohang{background:#0065a8; width:100%; position:relative; text-align:center; font-size:14px;}
+.daohang ul, .caidan ul{list-style:none;}
+.daohang ul li{display:inline; padding:12px 1%;}
+.daohang ul li a{color:#fff; line-height:40px;}
+
+
+
+
+.maincont{width:100%; background:url(img/bg.jpg) repeat; position:relative; height:702px;}
+.mcdiv{width:1200px; margin:0 auto;}
+.mcleft, .mcright{float:left;}
+.mcleft img{width:190px; height:128px; padding-top:20px; display:block;}
+.mcleft a{width:190px; color:#004879; font-size:14px; display:block; text-align:center; padding-top:10px;}
+.mcright ul{list-style:none; clear:both; position:relative;}
+.mcright ul li{float:left; margin-left:40px;}
+.mcright ul li img{margin-top:20px; width:270px; height:180px;}
+.mcright ul li a{display:block; font-size:14px; color:#333; width:270px; text-align:center; margin-top:10px; margin-bottom:30px;}
+.mcdes{margin-left:30px; width:886px;}
+.mcdes h1{color:#996600; font-size:20px; padding-top:30px;}
+.mcdes p{font-size:14px; color:#000; padding-top:30px; line-height:20px;}
+.bottom{width:100%; position:relative; height:45px; text-align:center; background-color:#333;}
+.bottom p{font-size:14px; line-height:45px; color:#fff;}
+.index{width:100%; position:relative;}
+
+.page1, .page2, .page3{width:1200px; margin:0 auto; position:relative;}
+.p1-bt{margin-left:2%; position:relative;}
+.p1-bt h1{color:#004879; font-size:28px; line-height:75px;}
+.p1-cont{margin:0 2%; position:relative;}
+.p1-cleft{float:left;}
+.p1-cleft ul{list-style:none; width:175px; background-color:#c2c3bd; overflow:hidden;}
+.page1 .p1-cleft ul, .page2 .p1-cleft ul{height:150px;}
+.page3 .p1-cleft ul{height:115px;}
+.p1-cleft ul li{border-bottom:1px #ccc solid; line-height:37px; width:145px; margin:auto;}
+.p1-cleft ul li a{color:#333; font-size:14px; }
+.p1-cright{float:left; margin-left:2%; margin-bottom:20px;}
+.page1 .p1-cright img{display:block;}
+.p1-cright h1{font-size:20px; color:#996600; margin-top:20px; line-height:30px;}
+.p1-cright h2{font-size:18px; color:#333; line-height:30px; text-align:center;}
+.p1-cright p{font-size:16px; color:#000; margin-top:15px; line-height:30px; width:910px;}
+.p1-cright ul{list-style:none; margin-top:20px;}
+.p1-cright ul li{display:inline-block; width:170px; margin-right:10px;}
+
+.page2 .p1-cright video{margin-left:150px;}
+.page3 .p1-cright table tr{color:#333; height:30px; text-align:center; font-size:14px;}
+.page3 .p1-cright table tr:first-child{color:#004879; height:30px; font-size:16px;}
+
+.topanim{
+	animatin:movefromtop 500ms linear both;
+	-moz-animation:movefromtop 500ms linear both;
+	-webkit-animation:movefromtop 500ms linear both;
+	-o-animation:movefromtop 500ms linear both;
+}
+@keyframes movefromtop{from{top:-100px;} to{top:0;}}
+@-moz-keyframes movefromtop{from{top:-100px;} to{top:0;}}
+@-webkit-keyframes movefromtop{from{top:-100px;} to{top:0;;}}
+@-o-keyframes movefromtop{from{top:-100px;} to{top:0;}}
+
+
+@media only screen and (max-width:1024px){
+	.daohang{font-size:12px;}
+	.maincont{height:940px;}
+	.mcright ul li{clear:both;}
+	.mcright ul{float:left;}
+	.mcdes{width:350px; margin-left:30px; float:left;}
+	.tpdes{width:220px;}
+	.tpdes h1{font-size:16px; width:200px;}
+	.tpdes p{font-size:10px; width:200px;}
+}
+@media only screen and (max-width:1024px){
+	.page1, .page2, .page3{width:100%; position:relative;}
+	.p1-cleft, .p1-cright{clear:both; position:relative; width:100%}
+	.p1-cleft ul{width:100%; background-color:#c2c3bd; height:auto !important; text-align:center;}
+	.p1-cleft ul li{display:inline; border:0; padding-left:1%;}
+	.p1-cright{margin-top:20px; margin-left:0;}
+	.page1 .p1-cright img, .p1-cright h1, .p1-cright p, .page3 table, .page2 video{align-self:center !important ;width:100%;}
+	.page2 .p1-cright video{ align-self:center !important ;}
+}
