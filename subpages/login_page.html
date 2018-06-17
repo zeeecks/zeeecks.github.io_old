@@ -1,8 +1,130 @@
 <html>
 <head>
-<title>Assignment A - Who We Are</title>
+<title>Assignment A - Login </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <style type="text/css">
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+/*    color: white;*/
+    padding: 5px 5px 5px 5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/*
+button:hover {
+    opacity: 0.8;
+}
+*/
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+	
 .dropbtn {
     background-color: transparent;
 	white-space: nowrap;
@@ -79,8 +201,7 @@
 	<tr>
 		<td colspan="15">
 			<img src="images/subpage_empty_03.gif" width="1019" height="1" alt=""></td>
-		<td colspan="2" rowspan="2">
-			<img src="images/subpage_empty_04.png" width="49" height="41" alt=""></td>
+		<td colspan="2" rowspan="2">&nbsp;</td>
 		<td colspan="2" rowspan="5">
 			<img src="images/subpage_empty_05.gif" width="92" height="61" alt=""></td>
 		<td>
@@ -89,12 +210,10 @@
 	<tr>
 		<td colspan="7" rowspan="4">
 			<img src="images/subpage_empty_06.gif" width="899" height="60" alt=""></td>
-		<td colspan="2" rowspan="2">
-			<img src="images/subpage_empty_07.gif" width="43" height="43" alt=""></td>
+		<td colspan="2" rowspan="2">&nbsp;</td>
 		<td colspan="2" rowspan="4">
 			<img src="images/subpage_empty_08.gif" width="15" height="60" alt=""></td>
-		<td colspan="2" rowspan="2">
-			<img src="images/emptypage_06.gif" width="48" height="43" alt=""></td>
+		<td colspan="2" rowspan="2">&nbsp;</td>
 		<td colspan="2" rowspan="4">
 			<img src="images/subpage_empty_10.gif" width="14" height="60" alt=""></td>
 		<td>
@@ -122,9 +241,11 @@
 	</tr>
 	<tr>
 		<td colspan="6">
-			<img src="images/subpage_empty_15.gif" width="890" height="7" alt=""></td>
-		<td colspan="13" rowspan="3">
-			<a href="https://zeeecks.github.io/index"><img src="images/subpage_empty_16.gif" width="270" height="63" alt=""></a></td>
+			<img src="images/subpage_unlogged_15.gif" width="890" height="7" alt=""></td>
+		<td colspan="8" rowspan="3">
+			<img src="images/subpage_unlogged_16.png" width="124" height="63" alt=""></td>
+		<td colspan="5" rowspan="3">
+			<img src="images/subpage_unlogged_17.gif" width="146" height="63" alt=""></td>
 		<td>
 			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="7" alt=""></td>
 	</tr>
@@ -168,8 +289,7 @@
 				<a href="#">Link 3</a>
 			</div>
 	  </div></td>
-		<td colspan="5" rowspan="2">
-			<img src="images/subpage_empty_25.gif" width="774" height="56" alt=""></td>
+		<td colspan="5" rowspan="2">&nbsp;</td>
 		<td>
 			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="45" alt=""></td>
 	</tr>
@@ -192,6 +312,7 @@
 			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="295" alt=""></td>
 	</tr>
 	<tr>
+<!--
 	<td colspan ="27"><p><h1>
 		Who we are: This page is under construction. 
 		</h1></p>
@@ -200,11 +321,15 @@
 	<tr>
 		<br>
 		<td colspan="27">
-		<iframe width="1280" height="720" src="https://www.youtube.com/embed/Jmd4OLzhQw0?autoplay=1;start=35" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<iframe width="1280" height="720" src="https://www.youtube.com/embed/Jmd4OLzhQw0?autoplay=0;start=35" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</td>
+-->
 		
 		<td>
 			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="843" alt=""></td>
+		<td>
+			
+		</td>
 	</tr>
 	<tr>
 		<td colspan="27">
@@ -233,7 +358,7 @@
 			<a href = "https://www.facebook.com/"><img src="images/subpage_empty_41.gif" width="40" height="40" alt=""></a></td>
 		<td colspan="2" rowspan="2">&nbsp;</td>
 		<td colspan="2">
-			<a href = "https://www.youtube.com/"><img src="images/subpage_empty_43.gif" width="40" height="40" alt=""></a></td>
+			<a href = "https://www.youtube.com/"><img src="images/subpage_unlogged_44.gif" width="40" height="40" alt=""></a></td>
 		<td rowspan="2">&nbsp;</td>
 		<td>
 			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="40" alt=""></td>

@@ -8,6 +8,147 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 -->
 <style type="text/css">
+
+/* –––––––––––––––––––––––––––––––––––––––––––– The Egregious Dividing Line –––––––––––––––––––––––––––––––––––––––––––– */
+	
+/* –––––––––––––––––––––––––––––––––––––––––––– THESE ARE FOR THE LOGIN FORM –––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+/*    background-color: #4CAF50;*/
+/*    color: white;*/
+    padding: 0px;
+    margin: 0px;
+	background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/*
+button:hover {
+    background-color: #b31b1b;
+}
+*/
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+	color: white;
+    padding: 10px 18px;
+    background-color: #A6A5A5;
+}
+	
+.loginbtn {
+/*    width: auto;*/
+	font-size: 20px;
+    padding: 10px 18px;
+    background-color: #b31b1b;
+}	
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+/*
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+*/
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/* –––––––––––––––––––––––––––––––––––––––––––– The Egregious Dividing Line –––––––––––––––––––––––––––––––––––––––––––– */
+	
+	
+/* –––––––––––––––––––––––––––––––––––––––––––– THESE ARE FOR THE DROPDOWN MENUS –––––––––––––––––––––––––––––––––––––––––––– */
+
 .dropbtn {
     background-color: transparent;
 	white-space: nowrap;
@@ -92,7 +233,53 @@
 		<td colspan="34">
 			<img src="images/index_04.gif" width="889" height="7" alt=""></td>
 		<td colspan="7" rowspan="3">
-			<img src="images/index_05.gif" width="124" height="63" alt=""></td>
+			<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+				<img src="images/index_05.gif" width="124" height="63" alt="">
+			</button>
+<!--
+			
+			<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+-->
+			
+			</td>
 		<td colspan="7" rowspan="3">
 			<img src="images/index_06.gif" width="147" height="63" alt=""></td>
 		<td>
@@ -727,8 +914,7 @@
 			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="5" alt=""></td>
 	</tr>
 	<tr>
-		<td colspan="74">
-			<img src="images/index_185.gif" width="1920" height="24" alt=""></td>
+		<td colspan="74">&nbsp;</td>
 		<td>
 			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="24" alt=""></td>
 	</tr>
@@ -737,38 +923,29 @@
 			<img src="images/index_186.gif" width="1390" height="213" alt=""></td>
 		<td colspan="9">
 			<img src="images/index_187.gif" width="187" height="40" alt=""></td>
-		<td rowspan="2">
-			<img src="images/index_188.gif" width="28" height="213" alt=""></td>
+		<td rowspan="2">&nbsp;</td>
 		<td colspan="2">
 			<a href = "https://twitter.com/realdonaldtrump"><img src="images/index_189.gif" width="40" height="40" alt=""></a></td>
-		<td colspan="3" rowspan="2">
-			<img src="images/index_190.gif" width="23" height="213" alt=""></td>
+		<td colspan="3" rowspan="2">&nbsp;</td>
 		<td>
 			<a href = "https://www.linkedin.com/"><img src="images/index_191.gif" width="40" height="40" alt=""></a></td>
-		<td colspan="2" rowspan="2">
-			<img src="images/index_192.gif" width="23" height="213" alt=""></td>
+		<td colspan="2" rowspan="2">&nbsp;</td>
 		<td>
 			<a href = "https://www.facebook.com/"><img src="images/index_193.gif" width="40" height="40" alt=""></a></td>
-		<td colspan="5" rowspan="2">
-			<img src="images/index_194.gif" width="24" height="213" alt=""></td>
+		<td colspan="5" rowspan="2">&nbsp;</td>
 		<td colspan="2">
 			<a href = "https://www.youtube.com/"><img src="images/index_195.gif" width="40" height="40" alt=""></a></td>
-		<td rowspan="2">
-			<img src="images/index_196.gif" width="85" height="213" alt=""></td>
+		<td rowspan="2">&nbsp;</td>
 		<td>
 			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="40" alt=""></td>
 	</tr>
 	<tr>
 		<td colspan="9">
 			<img src="images/index_197.gif" width="187" height="173" alt=""></td>
-		<td colspan="2">
-			<img src="images/index_198.gif" width="40" height="173" alt=""></td>
-		<td>
-			<img src="images/index_199.gif" width="40" height="173" alt=""></td>
-		<td>
-			<img src="images/index_200.gif" width="40" height="173" alt=""></td>
-		<td colspan="2">
-			<img src="images/index_201.gif" width="40" height="173" alt=""></td>
+		<td colspan="2">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td colspan="2">&nbsp;</td>
 		<td>
 			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="173" alt=""></td>
 	</tr>
@@ -931,5 +1108,46 @@
 	</tr>
 </table>
 <!-- End Save for Web Slices -->
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="subpages/images/login_avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit" class="loginbtn">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
 </body>
 </html>
