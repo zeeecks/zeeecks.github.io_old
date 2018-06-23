@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
+/* these are link styles */
+
+/* unvisited link */
+a:link {
+    color: #b31b1b;
+}
+
+/* visited link */
+a:visited {
+    color: #b31b1b;
+}
+
+/* mouse over link */
+a:hover {
+    color: #cc1b1b;
+}
+
+/* selected link */
+a:active {
+    color: #cc661b;
+}
 
 /* css for the buttons, login and signup*/
 
@@ -261,6 +282,11 @@ dropdown button when the dropdown content is shown */
 	background-image: url("images/header_bg.png");
 }
 
+.quick_links {
+  width: 100%
+  background-image: url("images/header_bg.png");
+}
+
 .row_dropdown {
 	width: 100%;
 	margin: 0 0 0 0;
@@ -277,7 +303,7 @@ dropdown button when the dropdown content is shown */
 
 .row {
 	width: auto;
-  background-color: : transparent;
+  /* background-color: : transparent; */
   font-size: 20px;
   line-height: 1.6;
   font-family: sans-serif;
@@ -287,6 +313,18 @@ dropdown button when the dropdown content is shown */
 	/* display: inline-block; */
 }
 
+.quarter {
+  width: 25%;
+  padding: 0 0 0 0;
+  margin: 0;
+  float: left;
+  color: #b31b1b;
+  font-size: 17px;
+}
+
+.icon {
+  padding: 0 0 0 0;
+}
 
 .banner {
 	width: 100%;
@@ -788,7 +826,7 @@ form.example input[type=text] {
     border: 1px solid grey;
     float: left;
     width: 70%;
-    background: #f1f1f1;
+    background: #ffffff;
 }
 
 form.example button {
@@ -826,7 +864,7 @@ input[type=text], select {
 
 input[type=submit] {
     float: right;
-    width: 10%;
+    width: 15%;
     margin: 8 0 0 50;
     padding: 10px;
     background: #b31b1b;
