@@ -56,6 +56,20 @@ button:hover {
 }
 */
 
+.dlbtn {
+  color: #eeeeee;
+  width: 80%;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10;
+  margin-bottom: 6;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 16px;
+	padding: 8px;
+	background-color: #b31b1b;
+}
+
 /* Extra styles for the cancel button */
 .cancelbtn {
 	width: auto;
@@ -370,28 +384,38 @@ dropdown button when the dropdown content is shown */
 	margin-top: 0px;
 }
 .columns {
-	width: 25%;
+	width: 18%;
 	float: left;
 	font-family: "Source Sans Pro";
-	color: #A5A5A5;
+	color: #313131;
+  font-size: 16px;
 	line-height: 24px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	text-align: justify;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
+	/* text-align: justify; */
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+  border-color: #959595;
+  border-style: solid;
+  border-width: 1;
+  border-radius: 25px;
 }
+
 .row .columns p {
 	padding-left: 10%;
 	padding-right: 10%;
+  margin-top: 4;
+  margin-bottom: 5;
 }
 .container .columns h4 {
 	text-align: center;
-	color: #01B2D1;
+  margin-top: 10;
+  margin-bottom: 15;
+	color: #313131;
 }
 /* primary_header
 .primary_header {
@@ -784,11 +808,34 @@ body {
 
 @media (min-width: 1001px) {
 }
+
+.smallicon {
+  width: 18px;
+  height: 18px;
+  margin-right: 16px;
+  margin-left: 10%;
+  float:left;
+}
+
+.dlicon {
+  width: 18px; height: 18px;
+  margin: 0 15 0 15;
+  float:right;
+}
+
+.coinicon {
+  width: 15px; height: 15px;
+  margin: 0 5 0 5;
+  float:none;
+}
+
 .thumbnail {
-	width: 100px;
-	border-radius: 200px;
-	height: 100px;
+  background-color:#ffffff ;
+	width: 150px;
+	border-radius: 10px;
+	height: 120px;
 	margin-left: auto;
+  margin-top: 4;
 }
 .thumbnail_align {
 	text-align: center;
