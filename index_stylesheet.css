@@ -403,6 +403,7 @@ dropdown button when the dropdown content is shown */
   border-style: solid;
   border-width: 1;
   border-radius: 25px;
+  /* display: inline-block; */
 }
 
 .row .columns p {
@@ -413,6 +414,7 @@ dropdown button when the dropdown content is shown */
 }
 .container .columns h4 {
 	text-align: center;
+  /* display: inline-block; */
   margin-top: 10;
   margin-bottom: 15;
 	color: #313131;
@@ -830,7 +832,8 @@ body {
 }
 
 .thumbnail {
-  background-color:#ffffff ;
+  /* background-color:#ffffff ; */
+  background-image: url("images/header_bg.png");
 	width: 150px;
 	border-radius: 10px;
 	height: 120px;
