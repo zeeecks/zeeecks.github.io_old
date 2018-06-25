@@ -415,10 +415,19 @@ dropdown button when the dropdown content is shown */
 .container .columns h4 {
 	text-align: center;
   /* display: inline-block; */
-  margin-top: 10;
-  margin-bottom: 15;
+  margin-top: 5;
+  margin-bottom: 0;
 	color: #313131;
 }
+
+.container .columns h5 {
+	text-align: center;
+  /* display: inline-block; */
+  margin-top: 0;
+  margin-bottom: 14;
+	color: #313131;
+}
+
 /* primary_header
 .primary_header {
 	width: 100%;
@@ -839,6 +848,7 @@ body {
 	height: 120px;
 	margin-left: auto;
   margin-top: 4;
+  margin-bottom: 10;
 }
 .thumbnail_align {
 	text-align: center;
