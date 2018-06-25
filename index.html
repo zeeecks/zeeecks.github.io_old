@@ -14,7 +14,7 @@
 -->
 
 </head>
-<body bgcolor="#f4f4f4">
+<body bgcolor="#f4f4f4" onload="checkCookie()">
 
 <div class="header" >
 	<div class="primary_header">
@@ -55,12 +55,32 @@
 		<a href="index.html">Upload File</a>
 		</div>
 	</div>
-	<div class="dropdown" style="float:right; background-color: #b31b1b">
-		<button class="btn" onclick="document.getElementById('id02').style.display='block'" style="margin-right: 0px">Sign Up</button>
+	<div id="login=0">
+		<div class="dropdown" style="float:right; background-color: #b31b1b">
+			<button class="btn" onclick="document.getElementById('id02').style.display='block'" style="margin-right: 0px">Sign Up</button>
+		</div>
+		<div class="dropdown" style="float:right;">
+			<button class="btn" onclick="document.getElementById('id01').style.display='block'" style="margin-right: 0px">Log In</button>
+		</div>
 	</div>
-	<div class="dropdown" style="float:right;">
-		<button class="btn" onclick="document.getElementById('id01').style.display='block'" style="margin-right: 0px">Log In</button>
+	
+	<div id="login=1"> 
+<!--		<div id="login=1" style="display: none;"> -->
+
+		<!--	hidden by defualt-->
+		<div class="row" style="width: auto%; float:right; margin: 0 10 0 0 ">
+			<button class="usericon" onclick="log_off()" style="margin-top: 0px;">
+				<img src="images/icon_logout_alt.png" class="usericon" style="margin-left: 15">
+			</button>
+			<a href="friends.html"><img src="images/icon_friends.png" class="usericon"></a>
+			<a href="mail.html"><img src="images/icon_mail.png" class="usericon"></a>
+			<a href="userpage.html"><img src="images/icon_user2.png" class="usericon"></a>
+		</div>
 	</div>
+	
+
+<!--		cookie-->
+		
 <!--
 	<div class="dropdown" style="float:right; margin=0; padding=0;">
 	<div class="topnav" style="margin=0; padding=0;">
@@ -93,7 +113,8 @@
 		<span style="color: #888888"> Search our database for thousands of academic documents, class notes, lecture slides, and more. </span>
 	</div>
 	<div class="row">
-	<form class="example" action="/action_page.php">
+<!--	<form class="example" action="/action_page.php">-->
+ 	<form class="example" action="/action_page.php">
   	<input type="text" placeholder="Search.." name="search">
 <!--  	<button class="btn" style="margin-right: 0px; display: block" >Search</button>-->
   	<div class="row" style="width: 80%">
@@ -350,16 +371,16 @@
 	</div>
 -->
 	<!--end container (main)-->
-</div>
+
 <div class="row" style="width: 100%; float:left; margin:200 0 0 0; padding:0; background-image: url(images/footer_bg3.png);
 					border-color: #959595; border-style: solid; border-width: 3 0 0 0;">
 	<div class="row" style="width: 20%; float:right; margin-bottom: 0; margin-right: 20; ">
 		<div class="quarter" style="width: 60%">Follow Us: </div>
-		<div class="quarter" style="width: 80%; padding: 5 10 0 10">
-			<div class="quarter icon"><a href="https://twitter.com"><img src="images/icon_tw2.png" width="30"></a></div>
-			<div class="quarter icon"><a href="https://linkedin.com"><img src="images/icon_li.png" width="30"></a></div>
-			<div class="quarter icon"><a href="https://facebook.com"><img src="images/icon_fb.png" width="30"></a></div>
-			<div class="quarter icon"><a href="https://youtube.com"><img src="images/icon_yt.png" width="30"></a></div>
+		<div class="quarter" style="width: 80%; padding: 5 10 0 20">
+			<div class="quarter "><a href="https://twitter.com"><img src="images/icon_tw2.png" width="30"></a></div>
+			<div class="quarter "><a href="https://linkedin.com"><img src="images/icon_li.png" width="30"></a></div>
+			<div class="quarter "><a href="https://facebook.com"><img src="images/icon_fb.png" width="30"></a></div>
+			<div class="quarter "><a href="https://youtube.com"><img src="images/icon_yt.png" width="30"></a></div>
 		</div>
 	</div>
 	<div class="row" style="width: 60%; float:left; margin-top: 30">
@@ -392,14 +413,15 @@
 	<div style="width: auto%; float:right; padding-right: 6.5%">All Rights Reserved. </div>
 </div>
 
+</div>
 
 
 
 
 <!-- This is the appearance for the login screen -->
 <div id="id01" class="modal">
-
-  <form class="modal-content animate" action="/action_page.php">
+<!--	action="/action_page.php">-->
+  <form class="modal-content animate">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="subpages/images/login_avatar.png" alt="Avatar" class="avatar">
@@ -412,7 +434,8 @@
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
 
-      <button type="submit" class="loginbtn">Login</button>
+      <button class="loginbtn" onclick="log_in()">Login</button>
+
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
@@ -527,6 +550,59 @@ window.onclick = function(event) {
     }
 }
 </script>
+
+
+<script>
+// keep a cookie with name [cookie_name] and value [cookie_value] for [seconds] seconds
+	function setCookie(cookie_name, cookie_value, seconds) {
+		var d = new Date();
+		d.setTime(d.getTime() + (seconds * 1000));
+		var expires = "expires="+d.toUTCString();
+		document.cookie = cookie_name + "=" + cookie_value + ";" + expires + ";path=/";
+	}
+
+	function getCookie(cookie_name) {
+		var name = cookie_name + "=";
+		var ca = document.cookie.split(';');
+		for(var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+
+	function checkCookie() {
+		var login_bool = getCookie("is_logged_in");
+		if (login_bool != "") {
+			document.getElementById('login=0').style.display='none';
+			document.getElementById('login=1').style.display='block';
+		} else {
+			document.getElementById('login=0').style.display='block';
+			document.getElementById('login=1').style.display='none';
+	//		document.getElementById('id01').style.display='none'
+		}
+	}
+</script>
+
+<!--		switches logged in and not logged in panel on top right-->
+<script>
+	function log_in() {
+		setCookie("is_logged_in", "logged in", 3600);
+		document.getElementById('id01').style.display='none';
+		location.reload();
+	}
+
+	function log_off() {
+		setCookie("is_logged_in", "", 3600);
+		location.reload();
+	}
+</script>
+
 
 </body>
 </html>

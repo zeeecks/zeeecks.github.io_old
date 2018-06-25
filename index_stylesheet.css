@@ -56,6 +56,11 @@ button:hover {
 }
 */
 
+.defaultbtn {
+  margin: 0; padding:0;
+  float:right;
+}
+
 .dlbtn {
   color: #eeeeee;
   width: 80%;
@@ -247,7 +252,7 @@ dropdown content */
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: #313131;
     padding: 15px 0px 15px 20px;
     text-decoration: none;
     display: block;
@@ -289,6 +294,11 @@ dropdown button when the dropdown content is shown */
 	padding-top: 5px;
 	padding-right: 10px;
 	padding-bottom: 5px;
+}
+
+.user_panel {
+  width: 20%;
+  padding-right: 30px;
 }
 
 .header {
@@ -336,9 +346,9 @@ dropdown button when the dropdown content is shown */
   font-size: 17px;
 }
 
-.icon {
+/* .icon {
   padding: 0 0 0 0;
-}
+} */
 
 .banner {
 	width: 100%;
@@ -359,6 +369,8 @@ dropdown button when the dropdown content is shown */
 
 .sticky {
 	background-color: #f4f4f4;
+  color: #313131;
+  border-color: black;
 	border-style: solid;
 	border-width: 3px 0px 3px 0px;
 	position: -webkit-sticky;
@@ -438,7 +450,7 @@ dropdown button when the dropdown content is shown */
 	border-bottom: 2px solid #2C9AB7;
 } */
 .primary_header {
-	width: 100%;
+	width: 50%;
 	background-color: transparent
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -839,6 +851,18 @@ body {
   margin: 0 5 0 5;
   float:none;
 }
+
+.usericon {
+  width: auto; height: 24px;
+  margin: 6 15 0 0;
+  float: right;
+}
+
+/* .usericon_28 {
+  width: auto; height: 28px;
+  margin: 6 15 0 0;
+  float: right;
+} */
 
 .thumbnail {
   /* background-color:#ffffff ; */
