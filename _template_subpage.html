@@ -107,167 +107,20 @@
 
 <div class="container">
 
-<!--inbox-->
+<!--Get the A you deserve-->
 	<div class="row_new">
 		<div class="fancy_bullet"><img src="images/fancy_bullet.gif" alt="fancy"></div>
-		<div class="row_header">My inbox</div>
+		<div class="row_header">Template</div>
 	</div>
 
 	<div class="row" style="width: 80%">
-		These are the mail you have received.
-		<span style="color: #888888"> You can search your inbox by mail title, sender or mail content. </span>
+		Black Text. 
+		<span style="color: #888888"> White Text </span>
 	</div>
 	
-	<div class="row" style="width: 90%">
 
-		<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search your inbox by sender, title or content... " 
-		title="Type in a name">
-
-		<table id="myTable">
-		  <tr class="header">
-<!--		  	select-->
-		  	<th style="width:3%;"></th> 
-<!--		  	star-->
-		  	<th style="width:3%;"></th> 
-<!--		  	sender-->
-		  	<th style="width:13%;"></th> 
-<!--		  	title-->
-		  	<th style="width:18%;"></th> 
-<!--		  	content-->
-		  	<th style="width:45%;"></th> 
-<!--		  	attachment-->
-			<th style="width:3%;"></th> 
-<!--		  	time-->
-			<th style="width:12%;"></th> 
-		  </tr>
-		  <tr>
-			<td><input type="checkbox" name="choose" style="margin-top: 5; margin-bottom:0"></td>
-			<td><img src="images/icon_star.png" class="smallicon"></td>
-			<td><div class="mailsender">Sender1</div></td>
-			<td><div class="mailtitle">Title1</div></td>
-			<td><div class="mailcontent">This mail is marked important and has an attachment. </div></td>
-			<td><img src="images/icon_clip.png" class="smallicon"></td>
-			<td style="text-align: right; padding-right: 30;"><div class="maildate">09:48</div></td>
-		  </tr>
-		  <tr>
-			<td><input type="checkbox" name="choose" style="margin-top: 5; margin-bottom:0"></td>
-			<td>&nbsp;</td>
-			<td><div class="mailsender">Sender2</div></td>
-			<td><div class="mailtitle">Title2 but it is long</div></td>
-			<td><div class="mailcontent">Text that is too long overflows and is abbreviated</div></td>
-			<td>&nbsp;</td>
-			<td style="text-align: right; padding-right: 30;"><div class="maildate">09:48</div></td>
-		  </tr>
-		  <tr>
-			<td><input type="checkbox" name="choose" style="margin-top: 5; margin-bottom:0"></td>
-			<td>&nbsp;</td>
-			<td><div class="mailsender">Sender3 long sad</div></td>
-			<td><div class="mailtitle">Title3</div></td>
-			<td><div class="mailcontent">with (...) so as to not stretch the interface </div></td>
-			<td>&nbsp;</td>
-			<td style="text-align: right; padding-right: 30;"><div class="maildate">08:27</div></td>
-		  </tr>
-		  <tr>
-			<td><input type="checkbox" name="choose" style="margin-top: 5; margin-bottom:0"></td>
-			<td><img src="images/icon_star.png" class="smallicon"></td>
-			<td><div class="mailsenderread">Sender4</div></td>
-			<td><div class="mailtitleread">Title4</div></td>
-			<td><div class="mailcontent">This mail is read so text is grey </div></td>
-			<td><img src="images/icon_clip.png" class="smallicon"></td>
-			<td style="text-align: right; padding-right: 30;"><div class="maildateread">07:12</div></td>
-		  </tr>
-		  <tr>
-			<td><input type="checkbox" name="choose" style="margin-top: 5; margin-bottom:0"></td>
-			<td>&nbsp;</td>
-			<td><div class="mailsender">Sender7</div></td>
-			<td><div class="mailtitle">Fw: Title5</div></td>
-			<td><div class="mailcontent">Selection and page change not yet implemented</div></td>
-			<td><img src="images/icon_clip.png" class="smallicon"></td>
-			<td style="text-align: right; padding-right: 30;"><div class="maildate">6-21</div></td>
-		  </tr>
-		  <tr>
-			<td><input type="checkbox" name="choose" style="margin-top: 5; margin-bottom:0"></td>
-			<td>&nbsp;</td>
-			<td><div class="mailsender">Sender10</div></td>
-			<td><div class="mailtitle">Re: Title8</div></td>
-			<td><div class="mailcontent">You can send mail to non-friends</div></td>
-			<td><img src="images/icon_clip.png" class="smallicon"></td>
-			<td style="text-align: right; padding-right: 30;"><div class="maildate">6-13</div></td>
-		  </tr>
-		  <tr>
-			<td><input type="checkbox" name="choose" style="margin-top: 5; margin-bottom:0"></td>
-			<td>&nbsp;</td>
-			<td><div class="mailsender">SYSTEM</div></td>
-			<td><div class="mailtitle">Friend Request</div></td>
-			<td><div class="mailcontent">Sender8 wants to add you as a friend.</div></td>
-			<td>&nbsp;</td>
-			<td style="text-align: right; padding-right: 30;"><div class="maildate">5-8</div></td>
-		  </tr>
-		  <tr>
-			<td><input type="checkbox" name="choose" style="margin-top: 5; margin-bottom:0"></td>
-			<td>&nbsp;</td>
-			<td><div class="mailsender">SYSTEM</div></td>
-			<td><div class="mailtitle">Friend Request</div></td>
-			<td><div class="mailcontent">Sender9  has accpeted your friend request.</div></td>
-			<td>&nbsp;</td>
-			<td style="text-align: right; padding-right: 30;"><div class="maildate">2-3</div></td>
-		  </tr>
-		  <tr>
-			<td><input type="checkbox" name="choose" style="margin-top: 5; margin-bottom:0"></td>
-			<td>&nbsp;</td>
-			<td><div class="mailsender">Peking University</div></td>
-			<td><div class="mailtitle">Newsletter</div></td>
-			<td><div class="mailcontent">Institutions can send mail but cannot receive</div></td>
-			<td><img src="images/icon_clip.png" class="smallicon"></td>
-			<td style="text-align: right; padding-right: 30;"><div class="maildate">1-1</div></td>
-		  </tr>
-		  <tr>
-			<td><input type="checkbox" name="choose" style="margin-top: 5; margin-bottom:0"></td>
-			<td><img src="images/icon_star.png" class="smallicon"></td>
-			<td><div class="mailsenderread">SYSTEM</div></td>
-			<td><div class="mailtitleread">Welcome to Assignment A!</div></td>
-			<td><div class="mailcontent">Mail sent from system automatically important</div></td>
-			<td><img src="images/icon_clip.png" class="smallicon"></td>
-			<td style="text-align: right; padding-right: 30;"><div class="maildateread">17-12-31</div></td>
-		  </tr>
-		 
-		</table>
-
-
-	</div>
-	
-<!--	end mail table-->
-	
-	<div class="row_new">
-		<div class="fancy_bullet"><img src="images/fancy_bullet.gif" alt="fancy"></div>
-		<div class="row_header">Send Mail</div>
-	</div>
-
-	<div class="row" style="width: 80%">
-		You can send or reply to messages.
-		<span style="color: #888888"> Replies to System mail will not be acknowledged. </span>
-	</div>
-	
-	<form action="/action_page.php">
-    	<div class="row" style="width: 90%; margin-bottom: 0 ">
-        <label for="fname">Recipient:</label>
-        <input type="text" id="recipient" name="recipient" placeholder="Send to... " style="margin-left: 30; width: 50%">
-		</div>
-       	<div class="row" style="width: 90%; margin: 0">
-        <label for="lname">Subject:</label>
-        <input type="text" id="subject" name="subject" placeholder="Untitled" style="margin-left: 46; width: 50%">
-		</div>
-       	<div class="row" style="width: 80%">
-		</div>
-       	<div class="row" style="width: 90%">
-        <textarea id="box" name="box" placeholder="Your mail here..." style="height:170px; width: 75%"></textarea>
-        <input type="submit" value="Submit">
-		</div>
-        
-      </form>
-	
-  <!--footer blank area-->
-
+	<!--footer blank area-->
+	<!--end container (main)-->
 
 <div class="row" style="width: 100%; float:left; margin:200 0 0 0; padding:0; background-image: url(images/footer_bg3.png);
 					border-color: #959595; border-style: solid; border-width: 3 0 0 0;">
@@ -309,9 +162,6 @@
 	<div style="width: auto%; float:left; margin-right: 200">Assignment A Inc. </div>
 	<div style="width: auto%; float:right; padding-right: 6.5%">All Rights Reserved. </div>
 </div>
-
-  <!--end container (main)-->
-
 
 </div>
 
@@ -503,43 +353,6 @@ window.onclick = function(event) {
 	}
 </script>
 
-<!--mail-->	
-<script>
-function myFunction() {
-  var input, filter, table, tr, td, i;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-  for (i = 0; i < tr.length; i++) {
-    td1 = tr[i].getElementsByTagName("td")[2];
-	td2 = tr[i].getElementsByTagName("td")[3];
-	td3 = tr[i].getElementsByTagName("td")[4];
-    if (td1) {
-      if (td1.innerHTML.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-		if (td2){
-		  if (td2.innerHTML.toUpperCase().indexOf(filter) > -1) {
-			tr[i].style.display = "";
-		  } else {
-			  if (td3) {
-      		    if (td3.innerHTML.toUpperCase().indexOf(filter) > -1) {
-					tr[i].style.display = "";
-				} else {tr[i].style.display = "none";} }
-		   else {
-			  tr[i].style.display = "none";
-		  }
-		  }
-		}  else {
-        tr[i].style.display = "none";
-	}
-      }
-	}
-	  
-  }
-}
-</script>
-	
+
 </body>
 </html>

@@ -967,3 +967,108 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 } */
+
+/* this is for mail */
+
+input[type=checkbox] {
+  transform: scale(1.3);
+}
+
+.mailnormal {
+  color: #313131;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.mailread{
+  color: #919191;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.mailtitle{}
+
+div.mailsender{
+  font-weight: bold;
+  width: 110;
+  color: #313131;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div.mailsenderread{
+  width: 110;
+  color: #919191;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div.mailtitle{
+  font-weight: bold;
+  width: 140;
+  color: #313131;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div.mailtitleread{
+  width: 140;
+  color: #919191;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div.mailcontent{
+  width: 400;
+  color: #919191;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.maildate{
+  font-weight: bold;
+}
+
+.maildateread{
+  color: #919191;
+}
+
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
