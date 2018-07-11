@@ -38,6 +38,7 @@
 		<a href="whoweare.html">Who We Are</a>
 		<a href="ourmission.html">Our Mission</a>
 		<a href="code.html">Code of Honour</a>
+		<a href="contactus.html">Contact Us</a>
 		</div>
 	</div>
 	<div class="dropdown" style="float:left;">
@@ -50,14 +51,16 @@
 		</div>
 	</div>
 	<div class="dropdown" style="float:left;">
-		<a href= "https://google.com"><button class="btn">Upload Assignment</button></a>
+		<div class="dropdown" style="float:right;">
+			<button class="btn" onclick="document.getElementById('id04').style.display='block'" style="margin-right: 0px">Upload Assignment</button>
+		</div>
 	</div>
 	<div class="dropdown" style="float:left;">
 		<button class="btn">Earn Tokens</button>
 		<div class="dropdown-content" style="left:0;">
 		<a href="watchads.html">Watch Ads</a>
 		<a href="inviteafriend.html">Invite a Friend</a>
-		<a href="index.html">Upload File</a>
+		<a onclick="document.getElementById('id04').style.display='block'" style="margin-right: 0px">Upload File</a>
 		</div>
 	</div>
 	<div id="login=0">
@@ -106,6 +109,16 @@
 </div>
 
 <div class="container">
+
+	<div class="row_new">
+		<div class="fancy_bullet"><img src="images/fancy_bullet.gif" alt="fancy"></div>
+		<div class="row_header">News: </div>
+	</div>
+
+	<div class="row" style="width: 80%">
+		Check out our new <a href="forum.html">discussion forum</a>!
+		<span style="color: #888888">  </span>
+	</div>
 
 <!--Get the A you deserve-->
 	<div class="row_new">
@@ -541,6 +554,83 @@ window.onclick = function(event) {
     </div>
   </form>
 </div>
+
+<!-- These are JS scripts for the file upload screen-->
+
+<div id="id04" class="modal">
+  <form class="modal-content animate" action="/action_page.php">
+  <div class="imgcontainer">
+        <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+     
+    </div>
+	<div class="row" style="width: 90%; margin: 30 0 0 0">
+			<label for="uploadfile">Upload File: </label>
+			<input type="file" id="myFilepopup">
+	</div>
+	<div class="row" style="width: 90%; margin: 8 0 0 0">
+	  	<div class="row" style="width: 100%; float: left; margin: 0; padding: 0" >
+			<label for="ftitle">File Name: </label>
+			<input type="text" id="ftitlepopup" name="file name" placeholder="Name your file for others to see " style="margin-left: 15; width: 60%">
+		</div>
+	</div>
+	<div class="row" style="width: 90%; margin: 8 0 0 0">
+	  	<div class="row" style="width: 100%; float: left; margin: 0; padding: 9 0 9 0" >
+			<label for="file type2" >Type of Document</label>
+			<select id="file type2popup" name="file type"  style="margin-left: 15; width: 55%">
+			  <option value="homework">Homework</option>
+			  <option value="assignment">Assignment</option>
+			  <option value="notes">Notes</option>
+			</select>
+		</div>
+	</div>
+	<div class="row" style="width: 90%; margin-top: 2;">
+	  	<div class="row" style="width: 50%; float: left; margin: 0; padding: 0" >
+			<label for="sname2">School: </label>
+			<input type="text" id="sname2popup" name="school name" placeholder="The school/university name" style="margin-left: 15; margin-right: 15; width: 55%">
+			and
+		</div>
+		<div class="row" style="width: 50%; float: left; margin: 0; padding: 0">
+			<label for="cnum2">Course #: </label>
+			<input type="text" id="cnum2popup" name="course num" placeholder="The course number of that school" style="margin-left: 15; width: 55%">
+		</div>
+	</div>
+	<div class="row" style="width: 90%; margin-top: 2;">
+	  	<div class="row" style="width: 95%; margin: 0; padding: 0" >
+			<label for="tags2">User tags: </label>
+			<input type="text" id="tags2popup" name="tags2" placeholder="User defined tags (separate by ' , ' ) " style="margin-left: 15; margin-right: 0; width: 65%; ">
+		</div>
+	</div>
+	<div class="row" style="width: 90%; margin-top: 2; ">
+	  	<div class="row" style="width: 95%; margin: 0; padding: 0" >
+			<label for="price">Price (tokens): </label>
+			<input type="text" id="pricepopup" name="price" placeholder="Charge this amount for file "  style="margin-left: 15; margin-right: 0; width: 65%; ">
+		</div>
+	</div>
+	<div class="row" style="width: 90%;  margin-top: 2; margin-bottom: 30">
+	  	<div class="row" style="width: 95%; margin: 0; padding: 0" >
+			<label for="fname">Description: </label>
+			<input type="text" id="descpopup" name="desc" placeholder="User defined tags (separate by ' , ' ) " style="margin-left: 15; margin-right: 0; width: 65%; ">
+			<input type="submit" value="Upload" style="margin-top: 5; margin-right: 0">
+		</div>
+	</div>
+
+	</form>
+</div>
+	
+	
+	
+<script>
+// Get the modal
+var modal = document.getElementById('id04');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 
 <!--These are JS Scripts for the login screen-->
 

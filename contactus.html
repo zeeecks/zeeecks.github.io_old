@@ -87,13 +87,53 @@
 		<div class="fancy_bullet"><img src="images/fancy_bullet.gif" alt="fancy"></div>
 		<div class="row_header">Contact Us</div>
 	</div>
-	<div class="row" style="width: 80%">
-		This page is under construction. Check back later!
-		<span style="color: #888888"> </span>
+	<form action="/action_page.php">
+	<div class="row" style="width: 90%; margin: 30 0 0 0">
+			<label for="uploadfile">Include an Attachment: </label>
+			<input type="file" id="myFile">
 	</div>
-	<div class="row" style="width:80%">
-		<img src="images/construction.png" alt="Construction Img" align="middle">
+	<!-- change the names, ids yada yada-->
+	<div class="row" style="width: 90%; margin: 8 0 0 0">
+	  	<div class="row" style="width: 100%; float: left; margin: 0; padding: 0" >
+			<label for="ftitle">Your name: </label>
+			<input type="text" id="ftitle" name="file name" placeholder="" style="margin-left: 15; width: 60%">
+		</div>
 	</div>
+	<div class="row" style="width: 90%; margin: 8 0 0 0">
+	  	<div class="row" style="width: 100%; float: left; margin: 0; padding: 9 0 9 0" >
+			<label for="file type2" >Type of Message</label>
+			<select id="file type2" name="file type"  style="margin-left: 15; width: 55%">
+			  <option value="homework">Organisation validation request</option>
+			  <option value="assignment">Report a file or author</option>
+			  <option value="notes">Other</option>
+			</select>
+		</div>
+	</div>
+	<div class="row" style="width: 90%; margin-top: 2;">
+	  	<div class="row" style="width: 50%; float: left; margin: 0; padding: 0" >
+			<label for="sname2">Email: </label>
+			<input type="text" id="sname2" name="school name" placeholder="" style="margin-left: 15; margin-right: 15; width: 55%">
+			and
+		</div>
+		<div class="row" style="width: 50%; float: left; margin: 0; padding: 0">
+			<label for="cnum2">Tele #: </label>
+			<input type="text" id="cnum2" name="course num" placeholder="" style="margin-left: 15; width: 55%">
+		</div>
+	</div>
+	<div class="row" style="width: 90%; margin-top: 2;">
+	  	<div class="row" style="width: 95%; margin: 0; padding: 0" >
+			<label for="tags2">Tags: </label>
+			<input type="text" id="tags2" name="tags2" placeholder="" style="margin-left: 15; margin-right: 0; width: 65%; ">
+		</div>
+	</div>
+	<div class="row" style="width: 90%;  margin-top: 2;">
+	  	<div class="row" style="width: 95%; margin: 0; padding: 0" >
+			<label for="fname">Your Message: </label>
+			<input type="text" id="desc" name="desc" placeholder="" style="margin-left: 15; margin-right: 0; width: 65%; height: 200;">
+			<input type="submit" value="Submit" style="margin-top: 5; margin-right: 0">
+		</div>
+	</div>
+	</form>
 <!--
 	<div class="row">
 	<form class="example" action="/action_page.php">
